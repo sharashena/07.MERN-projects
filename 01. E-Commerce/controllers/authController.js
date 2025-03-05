@@ -218,7 +218,7 @@ const refreshToken = asyncWrapper(async (req, res) => {
 
   res.cookie("accessToken", newAccessToken, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
+    secure: false,
     signed: true,
     expires: new Date(Date.now() + accessTokenExpiry),
     sameSite: "None",
