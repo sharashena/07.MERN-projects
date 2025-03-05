@@ -1,0 +1,616 @@
+{
+  "status": 200,
+  "success": true,
+  "data": [
+    {
+      "brand_id": 1,
+      "name": "Acer",
+      "devices": 100
+    },
+    {
+      "brand_id": 2,
+      "name": "Allview",
+      "devices": 157
+    },
+    {
+      "brand_id": 3,
+      "name": "Amoi",
+      "devices": 47
+    },
+    {
+      "brand_id": 4,
+      "name": "Archos",
+      "devices": 43
+    },
+    {
+      "brand_id": 5,
+      "name": "AT&T devices",
+      "devices": 4
+    },
+    {
+      "brand_id": 6,
+      "name": "BenQ",
+      "devices": 35
+    },
+    {
+      "brand_id": 7,
+      "name": "Bird",
+      "devices": 61
+    },
+    {
+      "brand_id": 8,
+      "name": "Blackview",
+      "devices": 89
+    },
+    {
+      "brand_id": 9,
+      "name": "Bosch",
+      "devices": 10
+    },
+    {
+      "brand_id": 10,
+      "name": "Casio devices",
+      "devices": 5
+    },
+    {
+      "brand_id": 11,
+      "name": "Celkon",
+      "devices": 229
+    },
+    {
+      "brand_id": 12,
+      "name": "Coolpad",
+      "devices": 46
+    },
+    {
+      "brand_id": 13,
+      "name": "Dell",
+      "devices": 20
+    },
+    {
+      "brand_id": 14,
+      "name": "Emporia",
+      "devices": 15
+    },
+    {
+      "brand_id": 15,
+      "name": "Ericsson",
+      "devices": 40
+    },
+    {
+      "brand_id": 16,
+      "name": "Fairphone devices",
+      "devices": 4
+    },
+    {
+      "brand_id": 17,
+      "name": "Garmin-Asus devices",
+      "devices": 5
+    },
+    {
+      "brand_id": 18,
+      "name": "Gionee",
+      "devices": 95
+    },
+    {
+      "brand_id": 19,
+      "name": "Haier",
+      "devices": 59
+    },
+    {
+      "brand_id": 20,
+      "name": "HP",
+      "devices": 41
+    },
+    {
+      "brand_id": 21,
+      "name": "Huawei",
+      "devices": 443
+    },
+    {
+      "brand_id": 22,
+      "name": "i-mobile",
+      "devices": 37
+    },
+    {
+      "brand_id": 23,
+      "name": "Infinix",
+      "devices": 125
+    },
+    {
+      "brand_id": 24,
+      "name": "iNQ devices",
+      "devices": 5
+    },
+    {
+      "brand_id": 25,
+      "name": "itel",
+      "devices": 32
+    },
+    {
+      "brand_id": 26,
+      "name": "Karbonn",
+      "devices": 60
+    },
+    {
+      "brand_id": 27,
+      "name": "Lava",
+      "devices": 145
+    },
+    {
+      "brand_id": 28,
+      "name": "Lenovo",
+      "devices": 246
+    },
+    {
+      "brand_id": 29,
+      "name": "Maxon",
+      "devices": 31
+    },
+    {
+      "brand_id": 30,
+      "name": "Meizu",
+      "devices": 73
+    },
+    {
+      "brand_id": 31,
+      "name": "Microsoft",
+      "devices": 32
+    },
+    {
+      "brand_id": 32,
+      "name": "Mitsubishi",
+      "devices": 25
+    },
+    {
+      "brand_id": 33,
+      "name": "Motorola",
+      "devices": 610
+    },
+    {
+      "brand_id": 34,
+      "name": "NEC",
+      "devices": 73
+    },
+    {
+      "brand_id": 35,
+      "name": "NIU",
+      "devices": 30
+    },
+    {
+      "brand_id": 36,
+      "name": "Nothing devices",
+      "devices": 3
+    },
+    {
+      "brand_id": 37,
+      "name": "O2",
+      "devices": 45
+    },
+    {
+      "brand_id": 38,
+      "name": "Oppo",
+      "devices": 295
+    },
+    {
+      "brand_id": 39,
+      "name": "Oukitel",
+      "devices": 32
+    },
+    {
+      "brand_id": 40,
+      "name": "Panasonic",
+      "devices": 123
+    },
+    {
+      "brand_id": 41,
+      "name": "Parla",
+      "devices": 10
+    },
+    {
+      "brand_id": 42,
+      "name": "Plum",
+      "devices": 113
+    },
+    {
+      "brand_id": 43,
+      "name": "Prestigio",
+      "devices": 56
+    },
+    {
+      "brand_id": 44,
+      "name": "Qtek",
+      "devices": 21
+    },
+    {
+      "brand_id": 45,
+      "name": "Realme",
+      "devices": 185
+    },
+    {
+      "brand_id": 46,
+      "name": "Samsung",
+      "devices": 1385
+    },
+    {
+      "brand_id": 47,
+      "name": "Sewon",
+      "devices": 25
+    },
+    {
+      "brand_id": 48,
+      "name": "Siemens",
+      "devices": 94
+    },
+    {
+      "brand_id": 49,
+      "name": "Sony",
+      "devices": 158
+    },
+    {
+      "brand_id": 50,
+      "name": "Spice",
+      "devices": 120
+    },
+    {
+      "brand_id": 51,
+      "name": "TCL",
+      "devices": 65
+    },
+    {
+      "brand_id": 52,
+      "name": "Tel.Me. devices",
+      "devices": 7
+    },
+    {
+      "brand_id": 53,
+      "name": "Thuraya devices",
+      "devices": 1
+    },
+    {
+      "brand_id": 54,
+      "name": "Ulefone",
+      "devices": 86
+    },
+    {
+      "brand_id": 55,
+      "name": "Vertu",
+      "devices": 17
+    },
+    {
+      "brand_id": 56,
+      "name": "vivo",
+      "devices": 416
+    },
+    {
+      "brand_id": 57,
+      "name": "Vodafone",
+      "devices": 87
+    },
+    {
+      "brand_id": 58,
+      "name": "WND devices",
+      "devices": 5
+    },
+    {
+      "brand_id": 59,
+      "name": "Xiaomi",
+      "devices": 381
+    },
+    {
+      "brand_id": 60,
+      "name": "Yezz",
+      "devices": 113
+    },
+    {
+      "brand_id": 61,
+      "name": "YU",
+      "devices": 13
+    },
+    {
+      "brand_id": 62,
+      "name": "alcatel",
+      "devices": 409
+    },
+    {
+      "brand_id": 63,
+      "name": "Amazon",
+      "devices": 25
+    },
+    {
+      "brand_id": 64,
+      "name": "Apple",
+      "devices": 118
+    },
+    {
+      "brand_id": 65,
+      "name": "Asus",
+      "devices": 203
+    },
+    {
+      "brand_id": 66,
+      "name": "Benefon devices",
+      "devices": 9
+    },
+    {
+      "brand_id": 67,
+      "name": "BenQ-Siemens",
+      "devices": 28
+    },
+    {
+      "brand_id": 68,
+      "name": "BlackBerry",
+      "devices": 92
+    },
+    {
+      "brand_id": 69,
+      "name": "BLU",
+      "devices": 369
+    },
+    {
+      "brand_id": 70,
+      "name": "BQ",
+      "devices": 20
+    },
+    {
+      "brand_id": 71,
+      "name": "Cat",
+      "devices": 22
+    },
+    {
+      "brand_id": 72,
+      "name": "Chea",
+      "devices": 12
+    },
+    {
+      "brand_id": 73,
+      "name": "Cubot",
+      "devices": 57
+    },
+    {
+      "brand_id": 74,
+      "name": "Doogee",
+      "devices": 66
+    },
+    {
+      "brand_id": 75,
+      "name": "Energizer",
+      "devices": 70
+    },
+    {
+      "brand_id": 76,
+      "name": "Eten",
+      "devices": 22
+    },
+    {
+      "brand_id": 77,
+      "name": "Fujitsu Siemens  devices",
+      "devices": 2
+    },
+    {
+      "brand_id": 78,
+      "name": "Gigabyte",
+      "devices": 63
+    },
+    {
+      "brand_id": 79,
+      "name": "Google",
+      "devices": 27
+    },
+    {
+      "brand_id": 80,
+      "name": "Honor",
+      "devices": 207
+    },
+    {
+      "brand_id": 81,
+      "name": "HTC",
+      "devices": 287
+    },
+    {
+      "brand_id": 82,
+      "name": "i-mate",
+      "devices": 34
+    },
+    {
+      "brand_id": 83,
+      "name": "Icemobile",
+      "devices": 61
+    },
+    {
+      "brand_id": 84,
+      "name": "Innostream",
+      "devices": 18
+    },
+    {
+      "brand_id": 85,
+      "name": "Intex",
+      "devices": 15
+    },
+    {
+      "brand_id": 86,
+      "name": "Jolla devices",
+      "devices": 3
+    },
+    {
+      "brand_id": 87,
+      "name": "Kyocera",
+      "devices": 24
+    },
+    {
+      "brand_id": 88,
+      "name": "LeEco devices",
+      "devices": 9
+    },
+    {
+      "brand_id": 89,
+      "name": "LG",
+      "devices": 667
+    },
+    {
+      "brand_id": 90,
+      "name": "Maxwest",
+      "devices": 41
+    },
+    {
+      "brand_id": 91,
+      "name": "Micromax",
+      "devices": 289
+    },
+    {
+      "brand_id": 92,
+      "name": "Mitac",
+      "devices": 12
+    },
+    {
+      "brand_id": 93,
+      "name": "Modu devices",
+      "devices": 8
+    },
+    {
+      "brand_id": 94,
+      "name": "MWg devices",
+      "devices": 5
+    },
+    {
+      "brand_id": 95,
+      "name": "Neonode devices",
+      "devices": 3
+    },
+    {
+      "brand_id": 96,
+      "name": "Nokia",
+      "devices": 576
+    },
+    {
+      "brand_id": 97,
+      "name": "Nvidia devices",
+      "devices": 3
+    },
+    {
+      "brand_id": 98,
+      "name": "OnePlus",
+      "devices": 67
+    },
+    {
+      "brand_id": 99,
+      "name": "Orange",
+      "devices": 19
+    },
+    {
+      "brand_id": 100,
+      "name": "Palm",
+      "devices": 17
+    },
+    {
+      "brand_id": 101,
+      "name": "Pantech",
+      "devices": 72
+    },
+    {
+      "brand_id": 102,
+      "name": "Philips",
+      "devices": 229
+    },
+    {
+      "brand_id": 103,
+      "name": "Posh",
+      "devices": 30
+    },
+    {
+      "brand_id": 104,
+      "name": "QMobile",
+      "devices": 90
+    },
+    {
+      "brand_id": 105,
+      "name": "Razer devices",
+      "devices": 2
+    },
+    {
+      "brand_id": 106,
+      "name": "Sagem",
+      "devices": 120
+    },
+    {
+      "brand_id": 107,
+      "name": "Sendo",
+      "devices": 19
+    },
+    {
+      "brand_id": 108,
+      "name": "Sharp",
+      "devices": 72
+    },
+    {
+      "brand_id": 109,
+      "name": "Sonim",
+      "devices": 18
+    },
+    {
+      "brand_id": 110,
+      "name": "Sony Ericsson",
+      "devices": 188
+    },
+    {
+      "brand_id": 111,
+      "name": "T-Mobile",
+      "devices": 64
+    },
+    {
+      "brand_id": 112,
+      "name": "Tecno",
+      "devices": 137
+    },
+    {
+      "brand_id": 113,
+      "name": "Telit",
+      "devices": 30
+    },
+    {
+      "brand_id": 114,
+      "name": "Toshiba",
+      "devices": 35
+    },
+    {
+      "brand_id": 115,
+      "name": "Unnecto",
+      "devices": 30
+    },
+    {
+      "brand_id": 116,
+      "name": "verykool",
+      "devices": 139
+    },
+    {
+      "brand_id": 117,
+      "name": "VK Mobile",
+      "devices": 31
+    },
+    {
+      "brand_id": 118,
+      "name": "Wiko",
+      "devices": 99
+    },
+    {
+      "brand_id": 119,
+      "name": "XCute devices",
+      "devices": 4
+    },
+    {
+      "brand_id": 120,
+      "name": "XOLO",
+      "devices": 81
+    },
+    {
+      "brand_id": 121,
+      "name": "Yota devices",
+      "devices": 3
+    },
+    {
+      "brand_id": 122,
+      "name": "ZTE",
+      "devices": 370
+    }
+  ]
+}
