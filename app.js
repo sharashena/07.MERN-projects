@@ -35,7 +35,10 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(
   cors({
-    origin: "https://e-commerce-8gce.onrender.com",
+    origin:
+      process.env.NODE_ENV === "production"
+        ? "https://e-commerce-8gce.onrender.com"
+        : "http://localhost:5173",
     credentials: true,
   })
 );
