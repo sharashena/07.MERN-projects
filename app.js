@@ -26,7 +26,7 @@ const productsRouter = require("./routes/productsRoute");
 const commentsRouter = require("./routes/commentsRoute");
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 const url = process.env.MONGO_URI;
 
 app.use("/assets", express.static(path.join(__dirname, "assets")));
@@ -35,7 +35,7 @@ app.use(express.json());
 app.use(morgan("tiny"));
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://e-commerce-8gce.onrender.com",
     credentials: true,
   })
 );
