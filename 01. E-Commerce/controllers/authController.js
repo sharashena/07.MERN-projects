@@ -221,6 +221,7 @@ const refreshToken = asyncWrapper(async (req, res) => {
     secure: process.env.NODE_ENV === "production",
     signed: true,
     expires: new Date(Date.now() + accessTokenExpiry),
+    sameSite: "None",
   });
 
   res.status(StatusCodes.OK).send({ msg: "access token refreshed" });
