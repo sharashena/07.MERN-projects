@@ -2,7 +2,7 @@ const asyncWrapper = require("../middlewares/asyncWrapper");
 const { NotFound, BadRequest } = require("../errors");
 const { StatusCodes } = require("http-status-codes");
 const checkPermission = require("../helpers/checkPermission");
-const commentsValidations = require("../validations/commentsValidations/commentsValidations");
+const commentsValidations = require("../validations/commentsValidations");
 const Comment = require("../models/Comment");
 const Product = require("../models/Product");
 

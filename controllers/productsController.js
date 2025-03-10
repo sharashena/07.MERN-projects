@@ -7,11 +7,11 @@ const cloudinary = require("cloudinary").v2;
 const fs = require("fs").promises;
 const path = require("path");
 const { v4: uuid } = require("uuid");
-const createProductValidation = require("../validations/productsValidations/createProductValidation");
+const productsValidations = require("../validations/productValidations");
 
 const createProduct = asyncWrapper(async (req, res) => {
   req.body.user = req.user.id;
-  const errors = createProductValidation(req.body);
+  const errors = productsValidations(req.body);
 
   if (Object.keys(errors).length > 0) {
     throw new BadRequest(JSON.stringify(errors));
@@ -61,7 +61,7 @@ const getAllProducts = asyncWrapper(async (req, res) => {
     .populate("user", "username")
     .populate("comments", "comment rating")
     .select("-colors -stock")
-    .sort({ name: 1 })
+    .sort({ name: 1 });
 
   if (!products) {
     throw new NotFound("Unfortunetly, there are no products");

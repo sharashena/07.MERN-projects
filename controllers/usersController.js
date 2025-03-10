@@ -15,7 +15,7 @@ const getAllUsers = asyncWrapper(async (req, res) => {
   if (!users) {
     throw new NotFound("user not found");
   }
-  res.status(StatusCodes.OK).json({ numOfUsers: user.length, users });
+  res.status(StatusCodes.OK).json({ numOfUsers: users.length, users });
 });
 
 const getSingleUser = asyncWrapper(async (req, res) => {

@@ -64,7 +64,7 @@ const loginUser = asyncWrapper(async (req, res) => {
 
   const tokenUser = createTokenUser(user);
   attachCookiesToResponse({ res, user: tokenUser, refreshToken });
-  
+
   res.status(StatusCodes.OK).json({
     msg: `welcome, ${user.username}!`,
     user: {
@@ -207,14 +207,21 @@ const refreshToken = asyncWrapper(async (req, res) => {
     throw new Unauthorized("refresh token is missing");
   }
   const payload = verifyJWT(refreshToken);
+
+  if (!payload) {
+    throw new Unauthorized("refresh token is invalid");
+  }
+
   const newAccessToken = createJWT({ payload });
 
   const accessTokenExpiry = 1000 * 60 * 60;
+
   res.cookie("accessToken", newAccessToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     signed: true,
     expires: new Date(Date.now() + accessTokenExpiry),
+    sameSite: "None",
   });
 
   res.status(StatusCodes.OK).send({ msg: "access token refreshed" });
