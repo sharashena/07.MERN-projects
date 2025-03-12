@@ -81,15 +81,36 @@ const confirmPayment = asyncWrapper(async (req, res) => {
 });
 
 const getAllOrders = asyncWrapper(async (req, res) => {
-  res.status(StatusCodes.OK).json({ msg: "get all orders" });
+  const orders = await Order.find({});
+
+  if (!orders) {
+    throw new NotFound("There are no orders added yet");
+  }
+
+  res
+    .status(StatusCodes.OK)
+    .json({ numOfOrders: orders.length, result: orders });
 });
 
 const getSingleOrder = asyncWrapper(async (req, res) => {
-  res.status(StatusCodes.OK).json({ msg: "get single order" });
+  const { id } = req.params;
+
+  const order = await Order.findOne({ _id: id });
+
+  if (!order) {
+    throw new NotFound(`order not found with id: ${id}`);
+  }
+
+  res.status(StatusCodes.OK).json({ result });
 });
 
 const currentUserOrders = asyncWrapper(async (req, res) => {
-  res.status(StatusCodes.OK).json({ msg: "current user orders" });
+  const orders = await Order.find({});
+  checkPermission(req.user, orders.user);
+
+  res
+    .status(StatusCodes.OK)
+    .json({ numOfOrders: orders.length, result: orders });
 });
 
 module.exports = {
