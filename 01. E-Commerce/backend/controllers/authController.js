@@ -191,6 +191,7 @@ const logoutUser = asyncWrapper(async (req, res) => {
     signed: true,
     expires: new Date(Date.now()),
     sameSite: "None",
+    domain: ".e-commerce-ugm8.onrender.com",
   });
   res.cookie("refreshToken", "", {
     httpOnly: true,
@@ -198,6 +199,7 @@ const logoutUser = asyncWrapper(async (req, res) => {
     signed: true,
     expires: new Date(Date.now()),
     sameSite: "None",
+    domain: ".e-commerce-ugm8.onrender.com",
   });
 
   res.status(StatusCodes.OK).json({ msg: "user logged out" });
@@ -224,6 +226,7 @@ const refreshToken = asyncWrapper(async (req, res) => {
     signed: true,
     expires: new Date(Date.now() + accessTokenExpiry),
     sameSite: "None",
+    domain: ".e-commerce-ugm8.onrender.com",
   });
 
   res.status(StatusCodes.OK).send({ msg: "access token refreshed" });

@@ -19,6 +19,7 @@ const attachCookiesToResponse = ({ res, user, refreshToken }) => {
     signed: true,
     expires: new Date(Date.now() + accessTokenExpiry),
     sameSite: "None",
+    domain: ".e-commerce-ugm8.onrender.com",
   });
 
   res.cookie("refreshToken", refreshTokenJWT, {
@@ -27,6 +28,7 @@ const attachCookiesToResponse = ({ res, user, refreshToken }) => {
     signed: true,
     expires: new Date(Date.now() + refreshTokenExpiry),
     sameSite: "None",
+    domain: ".e-commerce-ugm8.onrender.com",
   });
 };
 
