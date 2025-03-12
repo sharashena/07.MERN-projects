@@ -190,12 +190,14 @@ const logoutUser = asyncWrapper(async (req, res) => {
     secure: process.env.NODE_ENV === "production",
     signed: true,
     expires: new Date(Date.now()),
+    sameSite: "None",
   });
   res.cookie("refreshToken", "", {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     signed: true,
     expires: new Date(Date.now()),
+    sameSite: "None",
   });
 
   res.status(StatusCodes.OK).json({ msg: "user logged out" });
