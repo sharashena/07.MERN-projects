@@ -3,7 +3,7 @@ import axios from "axios";
 export const baseUrl = axios.create({
   baseURL:
     process.env.NODE_ENV === "production"
-      ? import.meta.VITE_BASE_URL
+      ? import.meta.env.VITE_BASE_URL
       : "http://localhost:5000/api",
   withCredentials: true,
 });
