@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router";
 import { FiArrowLeftCircle } from "react-icons/fi";
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
@@ -9,7 +8,6 @@ const ForgotPassword = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const { loading, alert } = useSelector(state => state.auth);
-  const navigate = useNavigate();
   const dispatch = useDispatch();
 
   const handleSubmit = async e => {

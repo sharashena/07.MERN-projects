@@ -13,7 +13,6 @@ import ResetPassword from "./Auth/ResetPassword";
 import PrivateRoute from "./PrivateRoute";
 import AddProducts from "./AddProducts";
 import MyProducts from "./MyProduct";
-import MyOrders from "./MyOrders";
 import ConfirmPayment from "./ConfirmPayment";
 
 export {
@@ -29,7 +28,6 @@ export {
   ResetPassword,
   SingleProduct,
   VerifyEmail,
-  MyOrders,
   PrivateRoute,
   AddProducts,
   MyProducts,

@@ -20,13 +20,7 @@ const Profile = ({
       >
         my products
       </Link>
-      <Link
-        to={"/myOrders"}
-        className="btn-block nav-profile-btn"
-        onClick={closeSubmenu}
-      >
-        my orders
-      </Link>
+
       <button className="btn-block nav-profile-btn" onClick={closeSubmenu}>
         settings
       </button>

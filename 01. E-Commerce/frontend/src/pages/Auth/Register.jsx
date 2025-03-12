@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { hideAlert } from "../../redux/features/auth/authSlice";
 import { registerUserThunk } from "../../redux/features/auth/authThunk";
 import { registerValidation } from "../../validations";
+import { useNavigate } from "react-router";
 
 const Register = () => {
   const [fields, setFields] = useState({
@@ -17,6 +18,8 @@ const Register = () => {
     email: "",
     password: "",
   });
+  const navigate = useNavigate();
+
   const { loading, alert } = useSelector(state => state.auth);
   const dispatch = useDispatch();
 
@@ -46,6 +49,7 @@ const Register = () => {
           email: "",
           password: "",
         });
+        navigate("/login");
       }
 
       const timeout = setTimeout(() => {

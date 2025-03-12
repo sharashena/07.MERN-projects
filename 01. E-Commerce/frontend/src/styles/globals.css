@@ -209,6 +209,12 @@ button {
   }
 }
 
+.error-section {
+  display: grid;
+  place-items: center;
+  min-height: calc(100vh - 72px);
+}
+
 /* copyright */
 
 .copyright {

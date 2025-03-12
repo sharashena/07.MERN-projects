@@ -55,7 +55,7 @@ const Login = () => {
         }, 1000);
         return () => clearTimeout(timeout);
       }
-
+      
       const timeout = setTimeout(() => {
         dispatch(hideAlert());
       }, 3000);

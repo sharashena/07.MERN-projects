@@ -39,7 +39,7 @@ const CalculateTotals = () => {
       </div>
       <Link
         to={"/checkout"}
-        className="btn btn-block"
+        className="btn btn-block calculate-btn"
         onClick={handleAddToOrder}
       >
         checkout

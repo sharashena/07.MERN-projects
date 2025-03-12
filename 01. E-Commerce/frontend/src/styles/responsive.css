@@ -9,7 +9,6 @@
   }
   .navlinks-container {
     display: flex !important;
-    flex-grow: 0;
   }
   .sidebar-overlay {
     display: none !important;
